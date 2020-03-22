@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <TypeScriptCompile Include="wwwroot\ts\file.ts" />
+    <TypeScriptCompile Include="wwwroot\ts\TreeView.ts" />
   </ItemGroup>
 
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">

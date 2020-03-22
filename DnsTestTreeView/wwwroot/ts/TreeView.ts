@@ -90,7 +90,7 @@ function createAndGetNodeChildList(container: HTMLElement, nodeId: number | null
         },
         error: (e, errorMessage) => {            
             console.log(e.statusCode);
-            console.log(errorMessage);
+            console.log(errorMessage);            
         }
     });
 }
