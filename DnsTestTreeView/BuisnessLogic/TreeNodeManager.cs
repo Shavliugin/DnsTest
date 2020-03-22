@@ -41,6 +41,8 @@ namespace DnsTestTreeView.BuisnessLogic
 
             var containerNode = _treeNodeProvider.GetTreeNode(request.ContainerTreeNodeId);
 
+            if (draggableNode == null || containerNode == null)
+                return;
 
             if (containerNode.IsDirectory)
             {
