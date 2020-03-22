@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DnsTestTreeView", "DnsTestTreeView\DnsTestTreeView.csproj", "{A43A3292-A4BC-45C7-8412-D96EE7F1D6DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A43A3292-A4BC-45C7-8412-D96EE7F1D6DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43A3292-A4BC-45C7-8412-D96EE7F1D6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43A3292-A4BC-45C7-8412-D96EE7F1D6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43A3292-A4BC-45C7-8412-D96EE7F1D6DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEE17729-8E56-43E3-B09A-84837C4D7AF5}
+	EndGlobalSection
+EndGlobal
