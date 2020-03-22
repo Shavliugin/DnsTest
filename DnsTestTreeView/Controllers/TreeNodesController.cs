@@ -6,8 +6,6 @@ using DnsTestTreeView.BuisnessLogic.Requests;
 using DnsTestTreeView.Entities;
 using Microsoft.AspNetCore.Mvc;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace DnsTestTreeView.Controllers
 {
     [Route("api/[controller]")]

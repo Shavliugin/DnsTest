@@ -45,7 +45,7 @@ namespace DnsTestTreeView.BuisnessLogic
             if (containerNode.IsDirectory)
             {
                 _treeNodeProvider.ShiftOrderId(draggableNode.ParentId, draggableNode.OrderId + 1, -1);
-                draggableNode.OrderId = _treeNodeProvider.getTreNodeChildCount(request.ContainerTreeNodeId) - 1;
+                draggableNode.OrderId = _treeNodeProvider.GetTreNodeChildCount(request.ContainerTreeNodeId) - 1;
                 draggableNode.ParentId = request.ContainerTreeNodeId;
             }
             else

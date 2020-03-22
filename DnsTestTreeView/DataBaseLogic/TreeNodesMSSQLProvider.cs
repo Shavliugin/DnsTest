@@ -8,10 +8,10 @@ namespace DnsTestTreeView.DataBaseLogic
 {
     public class TreeNodesMSSQLProvider : ITreeNodesProvider
     {
-        private SqlConnection _connection;
+        private readonly SqlConnection _connection;
 
         public TreeNodesMSSQLProvider()
-        {
+        {            
             _connection = new SqlConnection("Server=(localdb)\\mssqllocaldb;Database=DnsTestDb");
         }
 
@@ -78,7 +78,7 @@ namespace DnsTestTreeView.DataBaseLogic
             return result;
         }
 
-        public int getTreNodeChildCount(int parentId)
+        public int GetTreNodeChildCount(int parentId)
         {
             var queryString = "SELECT Count(*) FROM TreeNode WHERE ParentId = @ParentId";
 

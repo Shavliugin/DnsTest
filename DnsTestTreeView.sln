@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DnsTestTreeView", "DnsTestTreeView\DnsTestTreeView.csproj", "{A43A3292-A4BC-45C7-8412-D96EE7F1D6DD}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TestDB", "TestDB\TestDB.sqlproj", "{C676D8CC-3FE8-46CB-B458-28CAAD2D1753}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{A43A3292-A4BC-45C7-8412-D96EE7F1D6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A43A3292-A4BC-45C7-8412-D96EE7F1D6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A43A3292-A4BC-45C7-8412-D96EE7F1D6DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C676D8CC-3FE8-46CB-B458-28CAAD2D1753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C676D8CC-3FE8-46CB-B458-28CAAD2D1753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C676D8CC-3FE8-46CB-B458-28CAAD2D1753}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C676D8CC-3FE8-46CB-B458-28CAAD2D1753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C676D8CC-3FE8-46CB-B458-28CAAD2D1753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C676D8CC-3FE8-46CB-B458-28CAAD2D1753}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

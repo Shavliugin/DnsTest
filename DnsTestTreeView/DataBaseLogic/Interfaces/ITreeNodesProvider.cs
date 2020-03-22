@@ -10,7 +10,7 @@ namespace DnsTestTreeView.DataBaseLogic.Interfaces
 
         public TreeNode GetTreeNode(int id);
 
-        public int getTreNodeChildCount(int id);
+        public int GetTreNodeChildCount(int id);
 
         public void UpdateNode(TreeNode node);
 
